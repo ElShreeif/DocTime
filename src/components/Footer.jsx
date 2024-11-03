@@ -109,7 +109,7 @@ const Footer = () => {
    </div>
    <div className="mt-8 border-t border-gray-500 pt-5 text-center">
     <p className="text-gray-700">
-     &copy; 2024 Ammar ElShreif. All Rights Reserved.
+     &copy; {new Date().getFullYear()} Ammar ElShreif. All Rights Reserved.
     </p>
    </div>
   </footer>
